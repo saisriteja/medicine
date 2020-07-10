@@ -3,13 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <title>DL blog</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATpz7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <title>MedicineAI</title>
 </head>
 
 <body>
@@ -31,90 +33,68 @@
           </ul>
         </div>
       </nav>
+
       <h1>Deep learning in the field of Medicine and Healthcare.</h1>
     </div>
   </section>
-  
-  <h2>Introduction</h2>
-  <p1>Myself SaiSriTeja, I am a deep learning enthusiast. I am more biased towards applying deep learning in the field of medicine. So this blog entirely 
-     is dedicated <br></p1><p1>for that. Radiology and Pathology are core fields that are concentrated here.The works are attached with github links where you can 
-    find both the code</p1><p1> and data source. Happy learning.
-  </p1>
 
-  <h2>Deep Learning Basics</h2>
-  <p1>In case if you new to deep learning, I have written some medium blog posts where you can learn from the begining and way upto some advanced level stuff.</p1>
-  
+  <!-- deep learning -->
+
   <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 style="text-align:center;">Deep Learning</h2>
+        <hr>
+        <p><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-6816f61c5db1">Part 1 : Domain Knowledge </a>This blog is about details regarding
+          Cervical cancer cells from the smear dataset.</p>
+        <p><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-2-1518f18ee411">Part 2 : Building first Neural Network</a> You will work
+          on building a multilayer perceptron network and techniques to reduce overfitting.</p>
+        <p><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-3-bc1738ca90ec">Part 3 : Agumentation Techniques</a> Deep Learning models
+          are always hungry for data, here you will find how to make them with a limited number of samples.</p>
+        <p><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-4-978b1004af5b">Part 4 : Convolutional Neural Networks</a> The technique
+          that took Deep Learning to next level, here you will build one and see whats going on. </p>
+        <p><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-5-2c3c6ed8100f">Part 5 : Fine Tuning and Feature Extraction</a> here
+          we look at pretrained model like VGG and fine tune them to get better results. </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- medical image analysis -->
   <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 style="text-align:center;">Medical Image analysis</h2>
+        <hr>
+        <p><a href="https://medium.com/@kuppasaisriteja/medical-imaging-706d58eb06ff">Part 1 : Introduction to Medical Imaging</a> Introduction from overview of medical imaging to
+          top conferences to be followed.</p>
+        <p><a href="https://medium.com/@kuppasaisriteja/medical-imaging-part2-5db38fa5b59d">Part 2 : Introduction to X-Rays</a> This post tells about how an X-ray is taken and how it is
+          formed as a image.</p>
+      </div>
+    </div>
+  </div>
 
-  <p1><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-6816f61c5db1">Part 1 : Domain Knowledge </a>This blog is about details regarding 
-  Cervical cancer cells from the smear dataset.</p1>
-    <br>
-  <p1><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-2-1518f18ee411">Part 2 : Building first Neural Network</a> You will work 
-  on building a multilayer perceptron network and techniques to reduce overfitting.</p1>
-  <br>
-  <p1><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-3-bc1738ca90ec">Part 3 : Agumentation Techniques</a> Deep Learning models
-  are always hungry for data, here you will find how to make them with a limited number of samples.</p1>
-  
-  <p1><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-4-978b1004af5b">Part 4 : Convolutional Neural Networks</a> The technique
-  that took Deep Learning to next level, here you will build one and see whats going on. </p1>
-  
-  <p1><a href="https://medium.com/@kuppasaisriteja/deep-learning-series-part-5-2c3c6ed8100f">Part 5 : Fine Tuning and Feature Extraction</a> Here 
-    we look at pretrained model like VGG and fine tune them to get better results. </p1>
-
-  <h2>Medical Image Analysis</h2>
-  <p1><a href="https://medium.com/@kuppasaisriteja/medical-imaging-706d58eb06ff">Part 1 : Introduction to Medical Imaging</a> Introduction from overview of medical imaging to 
-  top conferences to be followed.</p1>
-    <br>
-  <p1><a href="https://medium.com/@kuppasaisriteja/medical-imaging-part2-5db38fa5b59d">Part 2 : Introduction to X-Rays</a> This post tells about how an X-ray is taken and how it is 
-   formed as a image.</p1>
-    <br>
+  <h2 style="text-align:center;">Contact</h2>
+  <hr>
 
 
-  <!-- <div class="information"> -->
-    <h2>Radiology</h2>
-    <p1><a href="https://github.com/saisriteja/medical_applications/tree/master/brain%20haemorrhage">Brain Haemorrhage detection</a></p1><br>
-    <p1><a href="https://github.com/saisriteja/medical_applications/tree/master/pneumonia%20chest%20x%20ray">Pneumonia detection</a></p1><br>
-
-    <h2>Pathology</h2>
-
-    <p1><a href="https://github.com/saisriteja/medical_applications/tree/master/Malaria%20parasite%20detection">Malaria detection</a></p1><br>
-    <p1><a href="https://github.com/saisriteja/medical_applications/tree/master/Cervical%20Cancer">Cervical Cancer detection using mask rcnn and data analysis.</a></p1><br>
-
-
-  <!-- </div> -->
-
-
-
-
-
-  <footer class="contact" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <a href="https://www.facebook.com/K.ShivaSrinivasSaiSriTeja/"><i class="social-icon fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/saisriteja3"> <i class="social-icon fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/shiv_srinivas/"><i class="social-icon fab fa-instagram"></i></a>
-          <a href="kuppasaisriteja@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
-          
-<!--           <i class="social-icon fab fa-facebook-f">https://www.facebook.com/K.ShivaSrinivasSaiSriTeja/</i>
-          <i class="social-icon fab fa-twitter">https://twitter.com/saisriteja3</i>
-          <i class="social-icon fab fa-instagram">https://www.instagram.com/shiv_srinivas/</i>
-          <i class="social-icon fas fa-envelope">kuppasaisriteja@gmail.com</i> -->
-          <p>Content by SaiSriTeja</p>
+  <div class="card mb-3" style="max-width: 540px;" id="footer">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images\profile.png" class="card-img" alt="profilepic">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Sai Sri Teja</h5>
+          <p class="card-text">Hello there, I am a ECE undergrad in SASTRA university, who is highly enthusiastic for the developemnt
+          image processing and AI in the medical domain.</p>
+          <p class="card-text">MailId: kuppasaisriteja@gmail.com</p>
         </div>
       </div>
     </div>
-
-  </footer>
-
-  <script src="portfolio.js" charset="utf-8"></script>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+  </div>
 </body>
+
 
 </html>
